@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+    
+    <!-- wrapper -->
+    <div class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 min-h-screen flex flex-col justify-center items-center relative">
+        <p id="game_info" class="bg-white bg-opacity-20 rounded-xl m-4  px-8 py-1 text-white  border border-white border-opacity-30 text-sm font-sans tracking-wide absolute top-3 "></p>
+
+        <div id="tic-tac-toe" class="bg-white bg-opacity-20 grid grid-cols-3 grid-rows-3  h-[15rem] w-[15rem] rounded-2xl p-4 border border-white border-opacity-30 drop-shadow-2xl shadow-2xl">
+            <div id="box1" class="box cursor-pointer flex justify-center items-center  border-r-2 border-b-2 border-white border-opacity-80 " ></div>
+ <div id="boxbox 2" class="box cursor-pointer flex justify-center items-center border-r-2 border-b-2 border-white border-opacity-80"></div>
+            <div id="box3" class="box cursor-pointer flex justify-center items-center border-b-2 border-white border-opacity-80"></div>
+            <div id="box4" class="box cursor-pointer flex justify-center items-center border-r-2 border-b-2 border-white border-opacity-80"></div>
+            <div id="box5" class="box cursor-pointer flex justify-center items-center border-r-2 border-b-2 border-white border-opacity-80"></div>
+            <div id="box6" class="box cursor-pointer flex justify-center items-center border-b-2 border-white border-opacity-80"></div>
+            <div id="box7" class="box cursor-pointer flex justify-center items-center border-r-2 border-white border-opacity-80"></div>
+            <div id="box8" class="box cursor-pointer flex justify-center items-center border-r-2 border-white border-opacity-80"></div>
+            <div id="box9" class="box cursor-pointer flex justify-center items-center"></div>
+        </div>
+
+        <button id="btn" class="bg-white bg-opacity-20 rounded-xl m-8  px-8 py-1 text-white  border border-white border-opacity-30 text-sm font-sans tracking-wide">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
